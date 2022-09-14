@@ -1,15 +1,15 @@
 {
   "name": "tree-sitter-odin",
   "version": "0.19.1",
-  "description": "Go grammar for tree-sitter",
+  "description": "Odin grammar for tree-sitter",
   "main": "bindings/node",
   "keywords": [
     "parser",
-    "go"
+    "odin"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tree-sitter/tree-sitter-go.git"
+    "url": "git+https://github.com/tree-sitter/tree-sitter-odin.git"
   },
   "author": "Max Brunsfeld",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "nan": "^2.14.0"
   },
   "devDependencies": {
-    "tree-sitter-cli": "^0.19.5"
+    "tree-sitter-cli": "^0.20"
   },
   "scripts": {
     "build": "tree-sitter generate && node-gyp build",
@@ -27,17 +27,17 @@
   },
   "tree-sitter": [
     {
-      "scope": "source.go",
+      "scope": "source.odin",
       "file-types": [
-        "go"
+        "odin"
       ]
     }
   ],
   "gypfile": true,
   "bugs": {
-    "url": "https://github.com/tree-sitter/tree-sitter-go/issues"
+    "url": "https://github.com/tree-sitter/tree-sitter-odin/issues"
   },
-  "homepage": "https://github.com/tree-sitter/tree-sitter-go#readme",
+  "homepage": "https://github.com/tree-sitter/tree-sitter-odin#readme",
   "directories": {
     "example": "examples"
   }
