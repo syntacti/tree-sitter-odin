@@ -55,7 +55,7 @@ pub const HIGHLIGHT_QUERY: &'static str = include_str!("../../queries/highlights
 pub const NODE_TYPES: &'static str = include_str!("../../src/node-types.json");
 
 /// The symbol tagging query for this language.
-pub const TAGGING_QUERY: &'static str = include_str!("../../queries/tags.scm");
+/// pub const TAGGING_QUERY: &'static str = include_str!("../../queries/tags.scm");
 
 #[cfg(test)]
 mod tests {
